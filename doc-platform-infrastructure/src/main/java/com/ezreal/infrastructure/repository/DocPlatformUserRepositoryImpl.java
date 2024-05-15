@@ -9,7 +9,7 @@ import com.ezreal.infrastructure.mapper.DocPlatformUserMapper;
 import com.ezreal.infrastructure.po.DocPlatformUser;
 import com.ezreal.types.common.Constants;
 import com.ezreal.types.exception.BusinessException;
-import com.ezreal.types.uitls.JwtUtils;
+import com.ezreal.types.utils.JwtUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.dao.DuplicateKeyException;
 import org.springframework.stereotype.Repository;
